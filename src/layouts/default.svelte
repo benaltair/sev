@@ -1,21 +1,22 @@
-<script>  
+<script>
   // import {routes} from '../metadata'
-  
-  export let title
+  import "simpledotcss/simple.min.css";
+
+  export let title;
 </script>
 
 <svelte:head>
   <title>{title}</title>
 </svelte:head>
 
-<nav>
+<!-- <nav>
   <ul>
-    <!-- {#each routes as route}
+    {#each routes as route}
       <li>
         <a href={route.path}>{route.label}</a>
       </li>
-    {/each} -->
+    {/each}
   </ul>
-</nav>
+</nav> -->
 
 <slot />
