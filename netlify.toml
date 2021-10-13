@@ -1,3 +1,7 @@
 [build]
   command = "npm run build"
   publish = "build/"
+  functions = "functions/"
+[dev]
+  framework = "svelte-kit"
+  autoLaunch = false
