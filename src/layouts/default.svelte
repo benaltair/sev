@@ -9,9 +9,8 @@
   <title>{title}</title>
 </svelte:head>
 
-<header>
-  <h1>{title}</h1>
-  <!-- <nav>
+<!-- <header>
+  <nav>
     <ul>
       {#each routes as route}
         <li>
@@ -19,13 +18,14 @@
         </li>
       {/each}
     </ul>
-  </nav> -->
-</header>
+  </nav>
+</header> -->
 
 <main>
+  <h1>{title}</h1>
   <slot />
 </main>
 
-<footer>
-  <!-- <p></p> -->
-</footer>
+<!-- <footer>
+  <p></p>
+</footer> -->
