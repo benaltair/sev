@@ -1,34 +1,28 @@
 <script>
   // import {routes} from '../metadata'
   import "simpledotcss/simple.min.css";
-
-  export let title;
+  import SvelteSeo from "svelte-seo";
+  import { page } from "$app/stores";
+  let bg = encodeURI(
+    "https://southeastvictoria.netlify.app/uploads/autumn-forest.png"
+  );
+  let url = encodeURI(`https://${page.host + page.path}`);
+  console.log(url);
+  let defaultImage = `https://motif.imgix.com/i?url=${url}&image_url=${bg}&color=000000&text_alignment=middle%2Ccenter&font_family=Charter&text_color=ffffff`;
+  export let title,
+    image = defaultImage;
 </script>
 
-<svelte:head>
-  <title>{title}</title>
-</svelte:head>
-
-<!-- <header>
-  <nav>
-    <ul>
-      {#each routes as route}
-        <li>
-          <a href={route.path}>{route.label}</a>
-        </li>
-      {/each}
-    </ul>
-  </nav>
-</header> -->
+<SvelteSeo
+  {title}
+  openGraph={{ images: [{ url: image }] }}
+  twitter={{ image }}
+/>
 
 <main>
-  <!-- <h1>{title}</h1> -->
   <section><slot /></section>
 </main>
 
-<!-- <footer>
-  <p></p>
-</footer> -->
 <style>
   :global(body) {
     /* padding: 5em; */
