@@ -11,12 +11,13 @@
   let defaultImage = `https://motif.imgix.com/i?url=${url}&image_url=${bg}&color=000000&text_alignment=middle%2Ccenter&font_family=Charter&text_color=ffffff`;
   export let title,
     image = defaultImage;
+  let socialImage = image ? `https://${page.host + image}` : defaultImage;
 </script>
 
 <SvelteSeo
   {title}
-  openGraph={{ images: [{ url: image }] }}
-  twitter={{ image }}
+  openGraph={{ images: [{ url: socialImage }] }}
+  twitter={{ image: socialImage }}
 />
 
 <main>
