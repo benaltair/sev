@@ -10,3 +10,6 @@ You are warmly invited to attend the October 2021 Reflection Gathering for SE Vi
 * **Time:** 10:00 am - 12:30 pm
 * **Date:** 30 October 2021
 * **Location:** TBA / Online
+
+Please contact the SEVic Area Teaching Committee for more information: 
+(sev.atc@bc.bahai.ca)
