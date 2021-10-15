@@ -1,5 +1,6 @@
 ---
 title: SE Victoria Reflection Gathering
+image: /uploads/reflection-gathering.png
 ---
 ![Autumn scene with deep orange larches and snowy mountains in the background.](/uploads/reflection-gathering.png)
 
