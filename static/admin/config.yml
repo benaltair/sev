@@ -12,6 +12,7 @@ collections:
       - name: image
         label: Social Image
         widget: image
+        required: false
       - name: body
         label: Content
         widget: markdown
