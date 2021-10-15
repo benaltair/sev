@@ -30,6 +30,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: right;
   }
   :global(:root) {
     --bg: #e5efe5;
