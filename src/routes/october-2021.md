@@ -1,7 +1,7 @@
 ---
 title: SE Victoria Reflection Gathering
 ---
-![Autumn scene with deep orange larches and snowy mountains in the background.](/uploads/reflection-gathering.svg)
+![Autumn scene with deep orange larches and snowy mountains in the background.](/uploads/reflection-gathering.png)
 
 You are warmly invited to attend the October 2021 Reflection Gathering for SE Victoria and adjoining clusters. More information will be coming soon. For now, you can add this event to your calendar to save the date.
 
@@ -12,4 +12,4 @@ You are warmly invited to attend the October 2021 Reflection Gathering for SE Vi
 * **Location:** TBA / Online
 
 Please contact the SEVic Area Teaching Committee for more information: 
-(sev.atc@bc.bahai.ca)
+\[sev.atc@bc.bahai.ca]
