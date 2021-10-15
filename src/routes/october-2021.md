@@ -1,5 +1,5 @@
 ---
-title: SE Victoria Reflection Gathering
+title: "Reflection Gathering: Southeast Victoria"
 image: /uploads/reflection-gathering.png
 ---
 ![Autumn scene with deep orange larches and snowy mountains in the background.](/uploads/reflection-gathering.png)
