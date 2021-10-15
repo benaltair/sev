@@ -8,7 +8,7 @@
   );
   let url = encodeURI(`https://${page.host + page.path}`);
   console.log(url);
-  let defaultImage = `https://motif.imgix.com/i?url=${url}&image_url=${bg}&color=000000&text_alignment=middle%2Ccenter&font_family=Charter&text_color=ffffff`;
+  let defaultImage = `https://motif.imgix.com/i?url=${url}&image_url=${bg}&color=000000&logo_url=&logo_alignment=bottom%2Cright&text_alignment=middle%2Ccenter&logo_padding=0&font_family=Charter&text_color=ffffff`;
   export let title,
     image = defaultImage;
 </script>
