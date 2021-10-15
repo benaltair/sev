@@ -37,6 +37,9 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  :global(:root) {
+    --bg: #e5efe5;
+  }
   main {
     --spacing: 5vw;
     display: grid;
@@ -53,5 +56,14 @@
     border-radius: 1.5em;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     backdrop-filter: blur(2em);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :global(:root) {
+      --bg: rgb(31, 31, 31);
+    }
+    section {
+      background-color: rgba(51, 51, 51, 0.777);
+    }
   }
 </style>
