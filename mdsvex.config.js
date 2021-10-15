@@ -2,6 +2,8 @@ const config = {
   "extensions": [".svelte.md", ".md", ".svx"],
 
   "smartypants": {
+    "quotes": true,
+    "ellipses": true,
     "dashes": "oldschool"
   },
   "layout": {
