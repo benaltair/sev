@@ -13,4 +13,4 @@ You are warmly invited to attend the October 2021 Reflection Gathering for SE Vi
 * **Location:** TBA / Online
 
 Please contact the SEVic Area Teaching Committee for more information: 
-\[sev.atc@bc.bahai.ca]
+[sev.atc@bc.bahai.ca](mailto:sev.atc@bc.bahai.ca)
