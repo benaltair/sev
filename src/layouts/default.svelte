@@ -29,3 +29,11 @@
 <!-- <footer>
   <p></p>
 </footer> -->
+
+<style>
+  :global(body) {
+    background-image: url(/uploads/blob-scene-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
