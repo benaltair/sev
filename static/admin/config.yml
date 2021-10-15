@@ -9,9 +9,9 @@ collections:
     fields:
       - name: title
         label: Title
-      - name: nav_label
-        label: Navigation Label
-        required: false
+      - name: image
+        label: Social Image
+        widget: image
       - name: body
         label: Content
         widget: markdown
