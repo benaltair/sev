@@ -6,7 +6,7 @@
   let bg = encodeURI(
     "https://southeastvictoria.netlify.app/uploads/autumn-forest.png"
   );
-  let url = encodeURI(`https://${page.host + page.path}`);
+  let url = encodeURI("https://" + $page.host + $page.path);
   console.log(url);
   let defaultImage = `https://motif.imgix.com/i?url=${url}&image_url=${bg}&color=000000&logo_url=&logo_alignment=bottom%2Cright&text_alignment=middle%2Ccenter&logo_padding=0&font_family=Charter&text_color=ffffff`;
   export let title,
