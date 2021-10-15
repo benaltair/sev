@@ -1,5 +1,5 @@
 ---
-title: SE Victoria Cluster Reflection Gathering
+title: SE Victoria Reflection Gathering
 ---
 You are warmly invited to attend the October 2021 Reflection Gathering for the SE Victoria and adjoining clusters. More information will be coming soon. For now, you can add this event to your calendar to save the date.
 
